@@ -1,0 +1,19 @@
+[project]
+name = "unifying-files-from-different-folders"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "ItaSsa",email = "itairassa@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "unifying_files_from_different_folders", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
